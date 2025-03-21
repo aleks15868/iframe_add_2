@@ -1,3 +1,7 @@
-http://34.130.6.95 {
+www.iframe.world {
+    refir https://iframe.world{url}
+}
+
+iframe.world {
     reverse_proxy localhost:8000
 }
