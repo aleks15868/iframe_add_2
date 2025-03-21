@@ -225,7 +225,8 @@
 
 @media (max-width: 768px) {
     .wrapper_new_home{
-        width: 390px;
+        width: 100%;
+        max-width: 390px;
     }
     .header_name_new_home{
         font-size: 48px;

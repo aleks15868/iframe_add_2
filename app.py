@@ -84,7 +84,6 @@ def modal_features_get_data():
         "x-api-key": api_key
     }
     response = requests.get(url, headers=headers)
-    print("\n\n",response.text,"\n\n")
     # Возвращаем JSON
     return response.text
 
@@ -266,8 +265,8 @@ for route in routes.keys():
 @app.route('/')
 def index():
     # Получаем параметры из текущего запроса
-    api_version = request.args.get('api_version')
-    api_key = request.args.get('api_key')
+    api_version = request.args.get('apiVersion')
+    api_key = request.args.get('apiKey')
     api_province = request.args.get('path', 'on')  # Если path не передан, по умолчанию используем 'on'
 
     # Перенаправляем на соответствующий маршрут

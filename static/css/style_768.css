@@ -91,7 +91,9 @@
 
 @media (max-width: 1110px) {
     .wrapper_new_home{
-        width: 768px;
+        width: 100%;
+        max-width: 768px;
+        padding: 0 16px;
     }
     .header_new_home{
         flex-direction: column;
