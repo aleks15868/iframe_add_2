@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style_new_home.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style_popup.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style_768.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style_390.css') }}">
+    <title>Document222</title>
+</head>
+<body>
+    <div class="wrapper_new_home">
+        <div class="header_new_home">
+            <div class="header_name_new_home">Search new build homes</div>
+            <a href="https://iframe.world/?apiVersion=v1-lite&apiKey=AIzaSyCioc6adlFpZSmVAlXKKcpLQjgbY-ciW40" class="header_buttons_search_new_home"><img src="{{ url_for('static', filename='image/icon_search_white.svg') }}"><span>Search now</span></a>
+        </div>
+        <div class="body_new_home">
+            <div class="title_new_home">Featured Communities</div>
+            <div class="apartment_listing_new_home">
+                <div class="apartment_item_new_home">
+                    <div class="apartment_title_new_home">Ontario</div>
+                    <div class="apartment_listing_region_new_home" data-province="on">
+                        <div class="iframe_loader_body" style="opacity: 0; display: none; height: 0%;">
+                            <div class="iframe_loader">
+                                <span class="iframe_bar"></span>
+                                <span class="iframe_bar"></span>
+                                <span class="iframe_bar"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="apartment_item_new_home">
+                    <div class="apartment_title_new_home">British Columbia</div>
+                    <div class="apartment_listing_region_new_home" data-province="bc">
+                        <div class="iframe_loader_body" style="opacity: 0; display: none; height: 0%;">
+                            <div class="iframe_loader">
+                                <span class="iframe_bar"></span>
+                                <span class="iframe_bar"></span>
+                                <span class="iframe_bar"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="apartment_item_new_home">
+                    <div class="apartment_title_new_home">Alberta</div>
+                    <div class="apartment_listing_region_new_home" data-province="ab">
+                        <div class="iframe_loader_body" style="opacity: 0; display: none; height: 0%;">
+                            <div class="iframe_loader">
+                                <span class="iframe_bar"></span>
+                                <span class="iframe_bar"></span>
+                                <span class="iframe_bar"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="search_button_center">
+                <a href="https://iframe.world/?apiVersion=v1-lite&apiKey=AIzaSyCioc6adlFpZSmVAlXKKcpLQjgbY-ciW40" class="header_buttons_search_new_home"><img src="{{ url_for('static', filename='image/icon_search_white.svg') }}"><span>Search more properties</span></a>
+            </div>
+        </div>
+    </div>
+    <div class="modal" style="opacity: 0; display: none;">
+        <div class="modal_body">
+
+        </div>
+    </div>
+    <div class="modal_slider_window" style="opacity: 0; display: none;">
+        <div class="modal_close_slider_window"><img src="{{ url_for('static', filename='image/close.svg') }}"></div>
+        <div class="modal_body_slider_window">
+            <div class="modal_slider">
+                <div class="slider_main">
+                    <!-- <div class="slider_main_item"><img src="{{ url_for('static', filename='image/house.png') }}"></div>
+                    <div class="slider_main_item"><img src="{{ url_for('static', filename='image/bamboo.jpg') }}"></div> -->
+                </div>
+                <div class="slider_thumbnails">
+                    <!-- <div class="slider_thumbnails_item"><img src="{{ url_for('static', filename='image/house.png') }}"></div>
+                    <div class="slider_thumbnails_item"><img src="{{ url_for('static', filename='image/bamboo.jpg') }}"></div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="{{ url_for('static', filename='js/slider_jquery.js') }}"></script> 
+<script src="{{ url_for('static', filename='js/parser_new_home.js') }}"></script> 
+<script src="{{ url_for('static', filename='js/popup_new_home.js') }}"></script> 
+</html>
