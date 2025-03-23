@@ -289,7 +289,7 @@ def get_new_homes_data():
     api_key = request.args.get('api_key')
 
     for elem_province in province:
-        url = f'https://api.getbuildify.com/{api_version}/{elem_province}/search_listings?perPage=10'
+        url = f'https://api.getbuildify.com/{api_version}/{elem_province}/featured_listings?perPage=10'
         headers = {
             "accept": "application/json",
             "x-api-key": api_key
