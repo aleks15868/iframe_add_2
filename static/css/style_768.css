@@ -94,9 +94,12 @@
         width: 100%;
         max-width: 736px;
     }
-    .header_new_home{
+    .wrapper_title_new_home{
         flex-direction: column;
         align-items: flex-start;
-        margin-bottom: 30px;
+        /* margin-bottom: 30px; */
+    }
+    .title_new_home{
+        margin-bottom: 20px;
     }
 }

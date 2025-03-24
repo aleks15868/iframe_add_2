@@ -17,12 +17,15 @@
 </head>
 <body>
     <div class="wrapper_new_home">
-        <div class="header_new_home">
+        <!-- <div class="header_new_home">
             <div class="header_name_new_home">Search new build homes</div>
             <a href="https://iframe.world/?apiVersion=v1-lite&apiKey=AIzaSyCioc6adlFpZSmVAlXKKcpLQjgbY-ciW40" class="header_buttons_search_new_home"><img src="{{ url_for('static', filename='image/icon_search_white.svg') }}"><span>Search now</span></a>
-        </div>
+        </div> -->
         <div class="body_new_home">
-            <div class="title_new_home">Featured Communities</div>
+            <div class="wrapper_title_new_home">
+                <div class="title_new_home">Featured Communities</div>
+                <a href="https://iframe.world/?apiVersion=v1-lite&apiKey=AIzaSyCioc6adlFpZSmVAlXKKcpLQjgbY-ciW40" class="header_buttons_search_new_home"><img src="{{ url_for('static', filename='image/icon_search_white.svg') }}"><span>Search now</span></a>
+            </div>
             <div class="apartment_listing_new_home">
                 <div class="apartment_item_new_home">
                     <div class="apartment_title_new_home">Ontario</div>
@@ -63,6 +66,10 @@
             </div>
             <div class="search_button_center">
                 <a href="https://iframe.world/?apiVersion=v1-lite&apiKey=AIzaSyCioc6adlFpZSmVAlXKKcpLQjgbY-ciW40" class="header_buttons_search_new_home"><img src="{{ url_for('static', filename='image/icon_search_white.svg') }}"><span>Search more properties</span></a>
+            </div>
+            <div class="policy">
+                <div><a href="https://www.getbuildify.com/"><img src="{{ url_for('static', filename='image/Buildify_logo.svg') }}"></a></div>
+                <p>DISCLAIMER</br>Buildify’s database is managed by our data team in collaboration with our network of real estate developers and brokers. While we strive for accuracy, the content on our site is for reference only, and we are not liable for its use or misuse. Prices, sizes, specifications, and promotions are subject to change by the builder without notice. Please contact the developer's sales representatives for the latest information.</p>
             </div>
         </div>
     </div>
