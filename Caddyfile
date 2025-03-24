@@ -1,5 +1,5 @@
 www.iframe.world {
-    redir https://iframe.world{url}
+    redir https://iframe.world{uri} permanent
 }
 
 iframe.world {
